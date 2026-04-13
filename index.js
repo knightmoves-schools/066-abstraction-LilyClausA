@@ -1,6 +1,6 @@
 class TaxCalculator{
     
-    #constructor(){
+    constructor(){
         this.rate = 15;
         this.state = 'TX';
         this.exempt = false;
