@@ -6,7 +6,7 @@ class TaxCalculator{
         this.exempt = false;
     
         let calculate = () => {
-        if(this.exempt){
+        #if(this.exempt){
             return calculateExempt(1.37);
         }else{
             return calculateNonExempt(5.72);
