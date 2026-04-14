@@ -6,7 +6,7 @@ class TaxCalculator{
         this.exempt = false;
     }
     
-    #calculate(){
+    calculate(){
         if(this.exempt){
             return calculateExempt(1.37);
         }else{
