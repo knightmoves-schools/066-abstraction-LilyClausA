@@ -1,5 +1,21 @@
-
-
+// this one was bad
+class TaxCalculator{
+    
+    constructor(){
+        let rate = 15;
+        this.state = 'TX';
+        this.exempt = false;
+    
+        let calculate = () => {
+        if(this.exempt) {
+            return calculateExempt(1.37);
+        }else{
+            return calculateNonExempt(5.72);
+        }
+    }
+}
+}
+//this one was good (down)
 class TaxCalculator {
     constructor() {
         let rate = 15;
@@ -17,7 +33,6 @@ class TaxCalculator {
         };
     }
 }
-
 
 //should hide the rate
 
